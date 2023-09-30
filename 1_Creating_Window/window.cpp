@@ -23,13 +23,12 @@ int main(){
 	SDL_GL_SetAttribute(SDL_GL_CONTEXT_MAJOR_VERSION, 3);
 	SDL_GL_SetAttribute(SDL_GL_CONTEXT_MINOR_VERSION, 3);
 
-	//set window
-	
+	//set window	
 	window = SDL_CreateWindow("window" , 0 , 0 , SCREEN_HEIGHT , SCREEN_WIDTH , SDL_WINDOW_OPENGL);
 	if(window == NULL){
 		std :: cout << "Failed to initalize window\n";
 	}
-	
+
 	gl_context = SDL_GL_CreateContext(window);
 	bool running = true;
 	while(running){
@@ -45,6 +44,4 @@ int main(){
 	SDL_GL_DeleteContext(gl_context);
 	SDL_DestroyWindow(window);
 	SDL_Quit();
-
 }
-

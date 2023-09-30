@@ -1,0 +1,18 @@
+create window (SDL , GLFW etc)
+create events
+create glcontext
+set attributes for openGL
+initalize glew
+
+
+
+// creating triangle
+
+set vertices of the triangle  a b c R G B s t
+create shader files
+compile shaders
+create shader program to use the compiled shaders
+
+create VAO for loading the vertices into the GPU
+bind the created vertices into the VAO 
+setting location = 0 to the fragment shader

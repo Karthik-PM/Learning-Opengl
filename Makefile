@@ -1,5 +1,5 @@
 #OBJS specifies which files to compile as part of the project
-OBJS = shaderTriangle/test.cpp
+OBJS = 2_Creating_Triangle/Triangle.cpp
 # OBJS = 1/window.cpp
 # OBJS = shaderTriangle/test1.cpp
 #CC specifies which compiler we're using
